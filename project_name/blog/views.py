@@ -9,3 +9,6 @@ def dddd(request):
 
 def advans(request):
     return render(request, 'blog/advans.html', {})
+
+def gets(request):
+    return render(request, 'blog/gets.html', {})
